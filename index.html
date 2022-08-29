@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="96x96" />
+
+</head>
+<body>
+    <h1>Book Library</h1>
+    <button onclick="addClass()" class="addBook">New Book</button>
+    <form id="userInput">
+        <div>
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title">
+        </div>
+     
+        <div>
+            <label for="author">Author</label>
+            <input type="text" name="author" id="author">
+        </div>
+        
+        <div>
+            <label for="pages">No. of pages</label>
+            <input type="number" name="pages" id="pages">
+        </div>
+        
+        <div>
+            <label for="status">Status(Read/Not Read)</label>
+            <input type="text" name="status" id="status">
+        </div>
+
+        <div>
+           <input id="btn" value="submit" type="button" onclick="removeClass()">
+        </div>
+    </form>
+
+    <div id="displayBooks"></div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>

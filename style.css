@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+}
+.bookCard {
+    background-color: rgb(47, 145, 145);
+    display: inline-block;
+    margin: 10px;
+    width: 250px;
+    height: 230px;
+    border-radius: 10%;
+    text-align: center;
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form{
+    display: none;
+    text-align: center;
+}
+.status{
+    display: block;
+}
+
+input {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+label{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    
+}
+
+.addBook{
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: Phantomsans, sans-serif;
+    font-size: 16px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+button:active,
+button:hover {
+  outline: 0;
+}
+
+.remove,
+.read {
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    font-family: -apple-system,sans-serif;
+    margin: 2px;
+    text-align: center;
+}
